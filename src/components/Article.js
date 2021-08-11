@@ -12,6 +12,8 @@ const displayMinutes = (minutes) => {
     return `${emojis} ${minutes} min read`
 }
 
+
+
 const Article = ({title="Title missing", date = "January 1, 1970", preview, minutes}) => (
     <article>
         <h3>{title}</h3>
